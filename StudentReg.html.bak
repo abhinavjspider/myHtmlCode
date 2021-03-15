@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <h2><U><center>STUDENT REGISTRATION FORM</h2></u></center>
+  </head>
+  <style>
+	.box
+	{
+	 border: 2px solid white;
+    background-color:#990099;
+    width: 740px;
+    border-radius: 25px;
+    padding-top:30px;
+	padding-right:15px;
+	padding-left:102px;
+	padding-bottom:30px;
+    margin:20px 87px 89px 276px;
+	
+	}
+	table
+	{
+	font:#ffffff;
+	}
+
+  </style>
+ <body bgcolor="white">
+ <div class="box">
+  <table border="0" cellpadding="3" align="center">
+  <tr>
+	<td><font color="white">FIRST NAME</font></td>
+	<td><input type="text" name="name" placeholder="Enter your name"><font color="white"> (max 30 character a-z and A-Z)</font></td>
+	
+  </tr>
+
+  <tr>
+	<td><font color="white">LAST NAME</font></td>
+	<td><input type="text" name="name" placeholder="Enter your name"><font color="white"> (max 30 character a-z and A-Z)</font></td>
+  </tr>
+
+  <tr>
+  <td><font color="white">DATE OF BIRTH</font></td>
+  <td><input type="date" placeholder=""></td>
+  </tr>
+  
+  <tr>
+	<td><font color="white">EMAIL ID</font></td>
+	<td><input type="email" placeholder="Enter email"></td>
+	</tr>
+
+<tr>
+	<td><font color="white">MOBILE NUMBER</font></td>
+	<td><input type="text" name="number" placeholder="Enter your mobile no"><font color="white"> (10 Digit Number)</font></td>
+  </tr>
+
+<tr>
+<td><font color="white">Gender</font></td>
+   <td><input type="radio" name="option"><font color="white">Male</font></input>
+   <input type="radio" name="option"><font color="white">Female</font></input></td>
+</tr>
+
+<tr>
+    <td><font color="white">ADDRESS</font></td>
+	<td><textarea name="addr" rows="4" cols="25"></textarea></td>
+</tr>
+
+<tr>
+	<td><font color="white">CITY</font></td>
+	<td><input type="text" name="name" placeholder="Enter your City Name"><font color="white"> (max 30 character a-z and A-Z)</font></td>
+  </tr>
+
+<tr>
+	<td><font color="white">PIN CODE</font></td>
+	<td><input type="text" name="number" placeholder="Enter your pincode"><font color="white"> (6 Digit pincode)</font></td>
+  </tr>
+ 
+<tr>
+	<td><font color="white">STATE</font></td>
+	<td><input type="text" name="name" placeholder="Enter your state name"></td>
+  </tr>
+
+<tr>
+			<td><font color="white">COUNTRY</font></td>
+			<td><select>
+			<option>INDIA</option>
+			<option>USA</option>
+			<option>LONDON</option>
+			<option>BANGOK</option>
+			<option>SINGAPORE</option>
+            </select>
+		    </td>
+</tr>
+
+<tr>
+
+            <td><font color="white">HOBBIES</font></td>
+			<td><input type="checkbox"/><font color="white">Dancing</font>
+			<input type="checkbox"/><font color="white">Singing</font>
+			<input type="checkbox"/><font color="white">Cooking</font>
+			<input type="checkbox"/><font color="white">Touring</font><br><br>
+			<input type="checkbox"/><font color="white">Others</font><input type="text" name="name" placeholder="Enter"></td>
+
+			
+</tr>
+<tr>
+     <td><font color="white">QUALIFICATIONS</font></td>
+
+<td>
+    <table border="0" cellpadding="0" cellspacing="2">
+</td>
+<tr align="center">
+	<th><font color="white">Si.No.</font></th>
+	<th><font color="white">Examination</font></th>
+	<th><font color="white">Board</font></th>
+	<th><font color="white">Percentage</font></th>
+	<th><font color="white">Year of Passing</font></th>
+</tr>
+
+<tr>
+	<td><font color="white">1</td>
+	<td><font color="white">Class X</font></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+</tr>
+
+<tr>
+	<td><font color="white">2</font></td>
+	<td><font color="white">Class XII</font></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+</tr>
+
+<tr>
+	<td><font color="white">3</font></td>
+	<td><font color="white">Graduation</font></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+</tr>
+
+<tr>
+	<td><font color="white">4</font></td>
+	<td><font color="white">Masters</font></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+	<td><input type="text"/></td>
+</tr>
+
+<tr>
+	<td></td>
+	<td></td>
+	<td><center><font color="white">(10 characters)</font></center></td>
+	<td><center><font color="white">(upto to decimal)</font></center></td>
+	<td></td>
+</tr>
+</td>
+</table>
+</td>
+</tr>
+ <tr>
+  <td><font color="white">COURSES<br>APPLIED FOR</font></td>
+  <td><font color="white">
+      BCA<input type="radio" name="course" value="BCA"></input>
+      B.Com<input type="radio" name="course" value="B.Com"></input>
+	  B.Sc<input type="radio" name="course" value="B.Sc"></input>
+      B.A.<input type="radio" name="course" value="B.A."></input></font>
+  </td>
+  </tr>
+
+  <tr>
+  <td></td>
+  <td></td>
+  </tr>
+
+  <tr>
+  <td></td>
+  <td></td>
+  </tr>
+
+ </table>
+  <center><button type="submit" value="submit">Submit</button>
+       <button type="reset" value="reset">Reset</button></center>
+	   
+ </form>
+ </div> 
+ </body>
+</html>
