@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <
+  <title>Document</title>
+ </head>
+ <body>
+  <table border="1" width="80%" cellpadding="">
+	<tr>
+		<th colspan="2"><h1><u>MY PROFILE</u></h1></th>
+	</tr>
+	<tr>
+		<td><img src="../Image/im.jpg" height="40%" width="100%" align="center"></td>
+		<td width="30%">Address:-Old Airport Murugeshpaliya,Bangalore</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="right"><a href="MyProfil.htm">Home  |</a>
+			
+	</tr>
+	<tr>
+		<td>
+			<a href="MyProfile.htm">Home</a><br>
+			<a href="Education.htm">Education</a><br>
+			<a href="Project.htm">Project</a><br>
+			<a href="Hobby.htm">Hobbies</a>
+		</td>
+		<td width=""><b><u>Tell me! about yourself...</u></b><br>
+			<br>Myself Abhinav kumar.I belongs from Jharkhand, currently i am residing in Banagalore.I am a Bachelor of education in ECE stream <a href="Read more.html">Read more</a>
+		</td>
+	</tr>
+</table>
+ </body>
+</html>
